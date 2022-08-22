@@ -1,0 +1,108 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+header {
+  display: flex;
+  top: 0;
+  justify-content: center;
+  color: white;
+}
+
+.header-contents {
+  display: flex;
+  position: fixed;
+  width: 100%;
+  align-items: center;
+  text-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.9);
+  color: white;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.9);
+}
+
+.main{
+  display: flex;
+  margin-top: 12%;
+  margin-left: 5%;
+  margin-right: 5%;
+  border-style: solid;
+  border-radius: 15px;
+  border-color: black;
+}
+
+.selectWindow{
+  display: flex;
+  height: 50%;
+  width: 50%;
+  margin: 15px;
+  justify-content: space-between;
+}
+
+.colorSelect{
+  margin: 5px;
+}
+
+.colorPreview{
+  display: flex;
+  justify-content: center;
+  height: 50px;
+  width: 250px;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 15px;
+  border-color: black;
+}
+
+.angle{
+  display: flex;
+}
+
+.displayWindow{
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  height: 500px;
+  width: 500px;
+  margin: 20px;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 15px;
+  border-color: black;
+  padding: 20px;
+}
+
+.colorDisplay{
+  display: flex;
+  border-style: solid;
+  height: 65%;
+  width: 100%;
+  border-width: 1px;
+  border-radius: 10px;
+}
+
+.codeDisplay{
+  display: flex;
+  font-size: 125%;
+  margin-top: 10px;
+  color: white;
+  background-color: rgb(38, 38, 38);
+  height:35%;
+  width: 100%;
+  border-radius: 10px;
+}
+
+footer{
+  display: flex;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  text-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.9);
+  justify-content: center;
+  align-items: center;
+  color: white;
+  padding: 20px;
+}
